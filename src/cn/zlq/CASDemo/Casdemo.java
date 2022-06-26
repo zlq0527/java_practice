@@ -9,9 +9,14 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class Casdemo {
 	public static void main(String[] args) {
-		AtomicInteger atomicInteger = new AtomicInteger(5);
-		atomicInteger.getAndIncrement();
-		atomicInteger.compareAndSet(5, 100);
-		System.out.println(atomicInteger.get());
+//		AtomicInteger atomicInteger = new AtomicInteger(5);
+//		atomicInteger.getAndIncrement();
+//		atomicInteger.compareAndSet(5, 100);
+//		System.out.println(atomicInteger.get());
+		Integer integer = new Integer(100);
+		int c = 100;
+		Integer b = 100;
+		System.out.println(c==integer);
+
 	}
 }
