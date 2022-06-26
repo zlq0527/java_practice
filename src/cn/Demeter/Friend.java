@@ -10,5 +10,6 @@ public class Friend {
     public void friendmethod() {
         System.out.println("朋友的方法");
     }
+    //Master分支修改的代码
 
 }
