@@ -12,4 +12,5 @@ public class Friend {
     }
     //Master分支修改的代码
 
+    //feedinfo新增的代码
 }
