@@ -10,5 +10,5 @@ public class Friend {
     public void friendmethod() {
         System.out.println("朋友的方法");
     }
-
+    //feedinfo新增的代码
 }
