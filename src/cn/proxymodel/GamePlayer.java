@@ -4,8 +4,12 @@ public class GamePlayer implements iGame {
 
     private String username;
 
-    public GamePlayer(String username) {
-        this.username = username;
+    public GamePlayer(iGame game,String username) throws Exception {
+        if (game == null) {
+            throw new Exception("不能创建真实对象");
+        } else {
+            this.username = username;
+        }
     }
 
     @Override
