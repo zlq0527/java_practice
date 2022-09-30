@@ -1,5 +1,8 @@
 package cn.Strategy;
 
+/**
+ * 策略模式的容器，用于封装对象
+ */
 public class Context {
     private IStrategy strategy;
 
