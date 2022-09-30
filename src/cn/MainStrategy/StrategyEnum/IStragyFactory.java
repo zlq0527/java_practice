@@ -1,4 +1,4 @@
-package cn.StrategyEnum;
+package cn.MainStrategy.StrategyEnum;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package cn.Strategy;
+package cn.MainStrategy.Strategy;
 
 public class Method2 implements IStrategy{
     @Override

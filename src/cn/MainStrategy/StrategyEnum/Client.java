@@ -1,4 +1,4 @@
-package cn.StrategyEnum;
+package cn.MainStrategy.StrategyEnum;
 
 public class Client {
     public static void main(String[] args) {
