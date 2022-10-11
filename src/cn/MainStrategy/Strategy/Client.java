@@ -1,4 +1,4 @@
-package cn.Strategy;
+package cn.MainStrategy.Strategy;
 
 /**
  * 策略模式
@@ -10,5 +10,8 @@ public class Client {
 
         Context method2 = new Context(new Method2());
         method2.getStrategy();
+
+        Context2 context2 = new Context2();
+        context2.operate("1");
     }
 }

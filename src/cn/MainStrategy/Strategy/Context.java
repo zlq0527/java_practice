@@ -1,5 +1,8 @@
-package cn.Strategy;
+package cn.MainStrategy.Strategy;
 
+/**
+ * 策略模式的容器，用于封装角色
+ */
 public class Context {
     private IStrategy strategy;
 
